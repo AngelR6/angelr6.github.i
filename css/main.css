@@ -6,7 +6,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background: url("../images/51140.jpg") center no-repeat;
+    background: url("../images/lights2.jpg") center no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -23,6 +23,7 @@
 
 .banner h1 {
     font-size: 80px;
+    font-family: 'Calistoga', cursive;
     color:white;
     font-weight: 300;
     margin-bottom: 30px;
@@ -50,8 +51,8 @@
 }
 
 .left {
-    background-color: blue;
-    color:red;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     animation-name: animateButton;
     animation-duration: 1s;
     animation-delay: 1.5s;
