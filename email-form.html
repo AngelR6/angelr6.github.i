@@ -3,24 +3,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/email-style.css">
     <title>Document</title>
 </head>
 <body>
-  <div class="contact-container" id="contact-container">
-    <div class="contact-header">
-      <div class="title">Email me</div>
-      <button class="close-button">&times;</button>
-    </div>
-    <div class="contact-body">
-      <form id="contact" method="POST" action=""></form>
-      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+  <div class="contact-title">
+    <h1>Email me</h1>
+    <h2>Contact info:</h2>
+  </div>
+    <div class="contact-form">
+      <form id="contact-form" method="POST" action="email-form.php">
+      <input type="text" name="name" class="form-control" placeholder="Your Name:" required>
       <br>
-      <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+      <input type="email" name="email" class="form-control" placeholder="Your Email:" required>
       <br>
-      <textarea name="message" class="form-control" placeholder="Message" cols="30" rows="10" required></textarea>
+      <textarea name="message" class="form-control" placeholder="Message:" rows="4" required></textarea>
       <br>
-      <input type="submit" class="form-control summit" value="Send Message">
-    </div> 
+      <input type="submit" class="form-control submit" value="Send Message">
+      </form>
   </div>
 </body>
 </html>
