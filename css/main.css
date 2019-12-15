@@ -98,3 +98,47 @@
         opacity: 1;
     }
 }
+
+.nav-container {
+    position: absolute;
+    font-family: 'Calistoga', cursive;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-container a {
+    display: block;
+    text-decoration: none;
+    background: white;
+    color: blue;
+    text-transform: uppercase;
+    padding: 15px 0px 15px 10px;
+    margin: 5px 0px;
+    width: 150px;
+    letter-spacing: 1.5px;
+    box-shadow: 2px 2px 16px 0px black;
+    position: relative;
+    margin-left: -90px;
+    transition: 0.5s ease;
+}
+
+.nav-container a span { 
+    float: right;
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.nav-container a span i {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.nav-container a:hover {
+    margin-left: 0;
+}
